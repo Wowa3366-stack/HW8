@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text-box > h3:nth-child(1) {
+        color: pink;
+      }
+      #greycol {
+        color: grey;
+      }
+
+      .text-box > div:nth-child(5) > p {
+        color: red;
+      }
+
+      .text-box > p:nth-of-type(3) {
+        color: green;
+      }
+
+      .text-box > p.yellow {
+        color: yellow;
+      }
+    </style>
+    <style>
+.item ul li:first-child {
+  color: lime;
+}
+
+.item ul li:last-child {
+  color: red;
+}
+
+.item ul li:nth-child(2) {
+ color: darkgreen;
+}
+
+.item ul li {
+  background-color: blueviolet;
+}
+.item ul li:nth-child(3) {
+ color: yellow
+}
+.technologies-list {
+ color: aqua
+}
+    </style>
+  </head>
+  <body>
+    <div class="text-box">
+      <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+      <p>Даний елемент має залишитись неоформленим.</p>
+      <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
+      <div>Даний елемент має залишитись неоформленим.</div>
+      <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+      <h3>Даний елемент має залишитись неоформленим.</h3>
+      <p>Пофарбуйте мене в зелений колір (color:green).</p>
+      <p class="yellow">Пофарбуйте мене в жовтий колір (color:yellow).</p>
+    </div>   
+<ul id="categories">
+  <li class="item">
+    <h2>Тварини</h2>
+    <ul class="animals-list">
+      <li>Кіт</li>
+      <li>Хом'як</li>
+      <li>Кінь</li>
+      <li>Папуга</li>
+    </ul>
+  </li>
+  <li class="item">
+    <h2>Продукти</h2>
+    <ul class="products-list">
+      <li>Хліб</li>
+      <li>Петрушка</li>
+      <li>Сир</li>
+    </ul>
+  </li>
+  <li class="item">
+    <h2>Технології</h2>
+    <ul class="technologies-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node</li>
+    </ul>
+  </li>
+</ul>
+  </body>
+</html>
